@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root{
+    height: 100%;
+    width: 100%;
+}
+
+.triangle{
+    background-image: url("./images/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 550px;
+}
